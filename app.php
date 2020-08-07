@@ -12,4 +12,5 @@ echo '<pre>';
 print_r($url_array);
 echo'</pre>';
 
+
 require_once 'templates/bases.php';
