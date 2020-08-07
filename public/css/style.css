@@ -1,0 +1,20 @@
+body
+{
+    background: aliceblue;
+}
+.main
+{
+    display: flex;
+    width: 100%;
+}
+.main_left
+{
+    padding: 10px;
+    border: 1px solid blueviolet;
+}
+.main_left input
+{
+}
+.main_right
+{
+}
