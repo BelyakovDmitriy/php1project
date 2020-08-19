@@ -6,10 +6,10 @@ require 'header.php';
 <div class="main">
     <div class = 'main_left'>
         Поле регистрации<br>
-        <?php require 'auth.php'; ?>
+        <?php require 'auth.php' ?>
     </div>
     <div class="main_right">
-
+        <?php require $page_content['templates'] ?>
     </div>
 </div>
 

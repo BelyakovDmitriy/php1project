@@ -4,6 +4,10 @@ define('HOST', 'localhost');
 define('USER', 'dmitriy');
 define('PASS', 'dmitriy');
 define('DB', 'lesson8');
+
+define('DOMAIN', 'http://geekbrains/php1/lesson8/');
+
+define('GOODS_CATEGORY', ['t-shirt', 'trousers', 'cardigan', 'cap']);
 //------------------------------------------//Функция защиты от пользовательских атак
 function security($value)
 {

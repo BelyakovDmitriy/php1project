@@ -9,12 +9,36 @@ body
 }
 .main_left
 {
+    height: max-content;
     padding: 10px;
     border: 1px solid blueviolet;
 }
-.main_left input
-{
-}
 .main_right
 {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.new_goods, .top_goods, .sale_goods, .all_goods, .category_goods
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 20px;
+}
+.new_goods_item, .top_goods_item, .sale_goods_item, .all_goods_item, .category_goods_item, .item
+{
+    border: 1px solid blueviolet;
+}
+
+.category_menu
+{
+    display: flex;
+    justify-content: space-around;
+    width: 94%;
+    list-style: none;
+    margin: 0;
+    padding: 3%;
 }
