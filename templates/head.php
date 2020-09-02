@@ -6,4 +6,5 @@
     <link rel="stylesheet" type="text/css" href="<?php echo DOMAIN ?>public/css/header.css">
     <link rel="stylesheet" type="text/css" href="<?php echo DOMAIN ?>public/css/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo DOMAIN ?>public/css/footer.css">
+    <script src="<?php echo DOMAIN ?>public/js/script.js"></script>
 </head>
